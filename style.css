@@ -1,0 +1,67 @@
+/* google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* initial style  */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+main {
+    max-width: 700px;
+    margin: 20px auto;
+
+}
+
+.macBookDetails {
+    display: flex;
+}
+
+.images img {
+    max-width: 100%;
+}
+
+.macBookInfo {
+    margin: 0 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgb(241, 147, 202);
+}
+
+.table-style tr td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    padding: 10px;
+}
+
+.box {
+    padding: 5px;
+}
+
+.totalprice {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .macBookDetails {
+        display: flex;
+        flex-direction: column;
+    }
+}
